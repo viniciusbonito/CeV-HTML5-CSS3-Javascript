@@ -59,7 +59,7 @@ nav#menu li{
     display: inline-block;
     background-color: #dddddd;
     padding: 10px;
-    margin: 2px;
+    margin: 1px;
     transition: background-color 2s;
 }
 
@@ -73,11 +73,11 @@ nav#menu h1{
 
 nav#menu a{
     color: #000000;
-    text-decoration: none;
+    text-decoration: solid;
 
 }
 
 nav#menu a:hover{
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: solid;
 }
