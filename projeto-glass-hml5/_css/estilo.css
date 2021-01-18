@@ -1,12 +1,32 @@
 @charset "UTF-8";
 
 body {
-    background-color: white;
+    background-color: #dddddd;
     color: rgba(0, 0, 0, 1);   
 }
+
+div#interface{
+    background-color: #ffffff;
+    width: 900px;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+        
+}
+
 p {
     text-align: justify; 
     text-indent: 50px;
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    left: 1230px;
+    top: 60px;
+}
+
+header#cabecalho{
+
 }
 
 /* Formatação de imagens com legendas */
@@ -15,7 +35,7 @@ figure.foto-legenda{
     position: relative;
     border: 8px solid white;
     box-shadow: 1px 1px 4px black;
-        
+         
 }
 
 figure.foto-legenda img{
@@ -50,8 +70,8 @@ nav#menu ul{
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: 20px;
-    left: 300px;
+    top: -15px;
+    left: 800px;
 
 }
 
@@ -81,3 +101,5 @@ nav#menu a:hover{
     color: #ffffff;
     text-decoration: solid;
 }
+
+
