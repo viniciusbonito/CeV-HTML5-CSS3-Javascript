@@ -7,7 +7,8 @@ body {
 
 div#interface{
     background-color: #ffffff;
-    width: 900px;
+    width: 90%;
+    max-width: 900px;
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     padding: 10px;
@@ -19,15 +20,19 @@ p {
     text-indent: 50px;
 }
 
-header#cabecalho img#icone{
-    position: absolute;
-    left: 1230px;
-    top: 60px;
-}
-
 header#cabecalho{
-
+    border-bottom: #606060 solid;
+    width: 90%;
+    max-width: 900px;
+    height: 150px;
 }
+
+header#cabecalho img#icone{
+    position: relative;
+    top: 60px;
+    left: 65%;
+}
+
 
 /* Formatação de imagens com legendas */
 
@@ -62,29 +67,30 @@ figure.foto-legenda:hover figcaption{
 
 /* Formatação do Menu */
 
-nav#menu{
-    display: block;
-}
-
 nav#menu ul{
-    list-style: none;
-    text-transform: uppercase;
+    display: flex;
     position: absolute;
-    top: -20px;
-    left: 800px;
-
+    top: -10px;
+        
 }
 
-nav#menu li{
-    display: inline-block;
-    background-color: #dddddd;
-    padding: 10px;
-    margin: 1px;
-    transition: background-color 2s;
+nav#menu ul li{
+    list-style: none;
 }
 
-nav#menu li:hover{
+nav#menu ul li a{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #606060;
+    text-decoration: none;
+    margin: 2px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-transform: uppercase; 
+}
+
+nav#menu li a:hover{
+    transition: 2s;
+    background-color: #959595;
 }
 
 nav#menu h1{
