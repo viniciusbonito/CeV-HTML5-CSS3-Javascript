@@ -22,14 +22,12 @@ p {
 
 header#cabecalho{
     border-bottom: #606060 solid;
-    width: 90%;
-    max-width: 900px;
     height: 150px;
 }
 
 header#cabecalho img#icone{
-    position: relative;
-    top: 60px;
+    position: absolute;
+    top: 65px;
     left: 65%;
 }
 
@@ -70,7 +68,8 @@ figure.foto-legenda:hover figcaption{
 nav#menu ul{
     display: flex;
     position: absolute;
-    top: -10px;
+    top: -5px;
+    left: 790px;
         
 }
 
